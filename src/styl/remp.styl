@@ -1,0 +1,147 @@
+@import 'nib'
+
+//
+// Variables
+//
+remp-red = #C53F5C
+remp-black = #111
+remp-gray  = #868F9C
+remp-white = #eee
+remp-green = #2B9679
+remp-font = 'Source Code Pro', Verdana, KozGoPro-ExtraLight, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif
+
+//
+// Reset
+//
+*, *:before, *:after
+  box-sizing border-box
+html, body
+  height 100%
+  margin 0
+  padding 0
+  font-family remp-font
+  font-size 16px
+h1, h2, h3, h4, h5, h6
+  font-size 1em
+  margin 0
+  padding 0
+
+//
+// Theme: white
+//
+a:link,
+a:visited
+  color remp-black
+  text-decoration none
+a:hover
+  color remp-red
+ul
+  padding-left 0
+  li
+    list-style-type none
+
+//
+// Theme: black
+//
+body.black
+  background-color remp-black
+  color remp-white
+  a:link,
+  a:visited
+    color remp-white
+  a:hover
+    color remp-red
+
+//
+// Theme: gray
+//
+body.gray
+  background-color remp-gray
+  color remp-white
+  a:link,
+  a:visited
+    color remp-white
+  a:hover
+    color remp-red
+
+//
+// Theme: green
+//
+body.green
+  background-color remp-green
+  color remp-white
+  a:link,
+  a:visited
+    color remp-white
+  a:hover
+    color remp-red
+
+//
+// Layout
+//
+header
+  position absolute
+  top 0
+  height 160px
+  padding 0 4em 0 4em
+  display flex
+  justify-content space-between
+  width 100%
+  .logo
+    align-self center
+  .menu
+    align-self center
+
+.container
+  padding 0 4em 2em 4em
+  position absolute
+  top 160px
+  bottom 0
+  display flex
+  align-items stretch
+  justify-content space-between
+  width 100%
+  .item
+    padding 0 1em 0 1em
+    &:first-child
+      padding 0 1em 0 0
+    &:last-child
+      padding 0
+    ul li
+      overflow ellipsis
+      line-height 1.8em
+      height 1.8em
+      &.current
+        text-decoration underline
+    ul li i
+      margin-right .8em
+    h2
+      overflow ellipsis
+      font-weight normal
+      margin 0
+    &.list
+      overflow-y scroll
+      flex-basis 240px
+    &.video
+      flex-basis 700px
+      ul
+        padding 1.5em 0 0
+        text-align center
+        margin 0
+        li
+          padding 0
+          margin 0
+          display inline-block
+          text-align center
+          height 2.0em
+          vertical-align middle
+          a
+            height 2.0em
+            line-height 2.0em
+            width 3em
+            display block
+            i
+              height 2.0em
+              line-height 2.0em
+              margin-right 0
+

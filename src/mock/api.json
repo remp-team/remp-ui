@@ -1,0 +1,253 @@
+{
+  "me": {
+    "id": 100,
+    "name": "hikarock",
+    "count": 732
+  },
+  "friends": [
+    {
+      "id": 101,
+      "name": "hideack",
+      "count": 123
+    },
+    {
+      "id": 102,
+      "name": "nakajijapan",
+      "count": 82
+    },
+    {
+      "id": 103,
+      "name": "yosaburo",
+      "count": 63
+    },
+    {
+      "id": 104,
+      "name": "getsukikyu",
+      "count": 42
+    },
+    {
+      "id": 105,
+      "name": "misyobun",
+      "count": 35
+    }
+  ],
+  "searches": [
+    {
+      "id": 131,
+      "name": "Foo Fighters",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Grandaddy",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "Smashing Pumpkins",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "name": "Muse",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "name": "Weezer",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "name": "Seal",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    }
+  ],
+  "playlists": [
+    {
+      "id": 129,
+      "name": "R.E.M.",
+      "musics": [
+        {
+          "id": 201,
+          "name": "Daysleeper",
+          "videoId": "aaa"
+        },
+        {
+          "id": 202,
+          "name": "Man On The Moon",
+          "videoId": "aaa"
+        },
+        {
+          "id": 203,
+          "name": "Electrolite",
+          "videoId": "aaa"
+        },
+        {
+          "id": 204,
+          "name": "Nightswimming",
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Toad The Wet Sprocket",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Eels",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "Come Down",
+          "videoId": "aaa"
+        }
+      ]
+    }
+  ],
+  "inbox": {
+    "id": 130,
+    "name": "Inbox",
+    "musics": [
+      {
+        "id": 301,
+        "name": "Walk on the Ocean",
+        "videoId": "aaa"
+      },
+      {
+        "id": 302,
+        "name": "Golden Age",
+        "videoId": "aaa"
+      },
+      {
+        "id": 303,
+        "name": "Come Down",
+        "videoId": "aaa"
+      }
+    ]
+  }
+}
