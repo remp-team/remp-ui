@@ -1,6 +1,10 @@
 import React from 'react';
 
 let Me = React.createClass({
+  handleClick: function() {
+    console.log('me click');
+    return;
+  },
   getInitialState: function() {
     console.log('getInitialState');
     return {data: []};
@@ -10,10 +14,6 @@ let Me = React.createClass({
   },
   componentWillMount: function() {
     console.log('componentWillMount');
-  },
-  handleClick: function(e) {
-    console.log('me click');
-    return;
   },
   render: function() {
     console.log('render');
