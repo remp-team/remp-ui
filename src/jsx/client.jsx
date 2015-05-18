@@ -5,12 +5,12 @@ import React from 'react';
 import 'jquery';
 import 'fitvids';
 
-import meView from './views/me.jsx';
-import friendsView from './views/friends.jsx';
+import meView        from './views/me.jsx';
+import friendsView   from './views/friends.jsx';
 import playlistsView from './views/playlists.jsx';
-import searchesView from './views/searches.jsx';
-import inboxView from './views/inbox.jsx';
-import musicsView from './views/musics.jsx';
+import searchesView  from './views/searches.jsx';
+import inboxView     from './views/inbox.jsx';
+import musicsView    from './views/musics.jsx';
 
 $(function() {
 
