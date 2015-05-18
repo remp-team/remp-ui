@@ -1,13 +1,13 @@
 import React from 'react';
 
 let Music = React.createClass({
-  handleClick: function(e) {
+  handleClick: function() {
     console.log('music click');
     return;
   },
   render: function() {
     return (
-      <li key={this.props.id}><a href="#" onClick={this.handleClick}><i className="btl bt-fw bt-music"></i>{this.props.name}</a></li>
+      <li><a href="#" onClick={this.handleClick}><i className="btl bt-fw bt-music"></i>{this.props.name}</a></li>
     );
   }
 });
@@ -27,7 +27,7 @@ let Musics = React.createClass({
     console.log('render');
     var list = this.props.data.map(function(obj){
       return (
-        <Music name={obj.name} id={obj.id} />
+        <Music name={obj.name} key={obj.id} />
       );
     });
     return (

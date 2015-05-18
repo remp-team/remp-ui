@@ -6,20 +6,21 @@ let fetcher = new Fetcher({
 });
 
 let Playlist = React.createClass({
-  handleClick: function(e) {
+  handleClick: function() {
     console.log(this.props.id);
     fetcher.read('playlists', { id: this.props.id }, {}, function (err, data, meta) {
       if (err) {
         console.log(err);
       }
       console.log(data.musics);
+      console.log(meta);
     });
     console.log('playlist click');
     return;
   },
   render: function() {
     return (
-      <li key={this.props.id}><a href="#" onClick={this.handleClick}><i className="btl bt-fw bt-folder"></i>{this.props.name}</a></li>
+      <li><a href="#" onClick={this.handleClick}><i className="btl bt-fw bt-folder"></i>{this.props.name}</a></li>
     );
   }
 });
@@ -39,7 +40,7 @@ let Playlists = React.createClass({
     console.log('render');
     var list = this.props.data.map(function(obj){
       return (
-        <Playlist name={obj.name} id={obj.id} />
+        <Playlist name={obj.name} key={obj.id} />
       );
     });
     return (

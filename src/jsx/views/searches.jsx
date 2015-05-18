@@ -1,13 +1,13 @@
 import React from 'react';
 
 let Search = React.createClass({
-  handleClick: function(e) {
+  handleClick: function() {
     console.log('search click');
     return;
   },
   render: function() {
     return (
-      <li key={this.props.id}><a href="#" onClick={this.handleClick}><i className="btl bt-fw bt-search"></i>{this.props.name}</a></li>
+      <li><a href="#" onClick={this.handleClick}><i className="btl bt-fw bt-search"></i>{this.props.name}</a></li>
     );
   }
 });
@@ -27,7 +27,7 @@ let Searches = React.createClass({
     console.log('render');
     var list = this.props.data.map(function(obj){
       return (
-        <Search name={obj.name} id={obj.id} />
+        <Search name={obj.name} key={obj.id} />
       );
     });
     return (

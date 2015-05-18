@@ -1,23 +1,23 @@
 'use strict';
-import express from 'express';
+import express    from 'express';
 import bodyParser from 'body-parser';
-import React from 'react';
-import Fetcher from 'fetchr';
+import React      from 'react';
+import Fetcher    from 'fetchr';
 import Handlebars from 'handlebars';
-import fs from 'fs';
+import fs         from 'fs';
 
-import meFetcher from './fetchers/me';
-import friendsFetcher from './fetchers/friends';
+import meFetcher        from './fetchers/me';
+import friendsFetcher   from './fetchers/friends';
 import playlistsFetcher from './fetchers/playlists';
-import searchesFetcher from './fetchers/searches';
-import inboxFetcher from './fetchers/inbox';
+import searchesFetcher  from './fetchers/searches';
+import inboxFetcher     from './fetchers/inbox';
 
-import meView from './views/me';
-import friendsView from './views/friends';
+import meView        from './views/me';
+import friendsView   from './views/friends';
 import playlistsView from './views/playlists';
-import searchesView from './views/searches';
-import inboxView from './views/inbox';
-import musicsView from './views/musics';
+import searchesView  from './views/searches';
+import inboxView     from './views/inbox';
+import musicsView    from './views/musics';
 
 Fetcher.registerFetcher(friendsFetcher);
 Fetcher.registerFetcher(meFetcher);
@@ -39,18 +39,21 @@ app.get('/', function (req, res) {
 
   let fetcherPromisefy = function(name) {
     return new Promise(function (resolve) {
-      fetcher.read(name, {}, {}, function (err, data) {
+      fetcher.read(name, {}, {}, function (error, data) {
+        if (error) {
+          console.log(error);
+        }
         resolve(data);
       });
     });
-  }
+  };
 
   Promise.all([
     fetcherPromisefy('me'),
     fetcherPromisefy('friends'),
     fetcherPromisefy('playlists'),
     fetcherPromisefy('searches'),
-    fetcherPromisefy('inbox'),
+    fetcherPromisefy('inbox')
   ]).then(function (values) {
 
     let me        = values[0];
@@ -97,7 +100,7 @@ app.get('/', function (req, res) {
       playlists: playlistsStr,
       searches: searchesStr,
       inbox: inboxStr,
-      musics: musicsStr,
+      musics: musicsStr
     }));
 
   }).catch(function(error){

@@ -1,6 +1,10 @@
 import React from 'react';
 
 let Inbox = React.createClass({
+  handleClick: function() {
+    console.log('inbox click');
+    return;
+  },
   getInitialState: function() {
     console.log('getInitialState');
     return {data: []};
@@ -10,10 +14,6 @@ let Inbox = React.createClass({
   },
   componentWillMount: function() {
     console.log('componentWillMount');
-  },
-  handleClick: function(e) {
-    console.log('inbox click');
-    return;
   },
   render: function() {
     console.log('render');

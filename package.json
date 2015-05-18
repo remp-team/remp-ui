@@ -5,6 +5,7 @@
   "main": "lib/server.jsx",
   "dependencies": {
     "body-parser": "^1.12.3",
+    "config": "^1.13.0",
     "express": "^4.12.3",
     "fetchr": "^0.5.2",
     "superagent": "^1.2.0"
