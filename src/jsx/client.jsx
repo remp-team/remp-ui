@@ -12,6 +12,8 @@ import searchesView  from './views/searches.jsx';
 import inboxView     from './views/inbox.jsx';
 import musicsView    from './views/musics.jsx';
 
+var player;
+
 $(function() {
 
   var data = $('#initial-data').data('json');
@@ -39,7 +41,7 @@ $(function() {
 
   window.onYouTubeIframeAPIReady = function() {
     console.log('on youtube iframe api ready');
-    var player = new YT.Player('video', {
+    window.player = new YT.Player('video', {
       videoId: '0S43IwBF0uM',
       events: {
         'onReady': function(evt) {
