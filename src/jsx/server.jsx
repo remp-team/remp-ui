@@ -12,12 +12,12 @@ import playlistsFetcher from './fetchers/playlists';
 import searchesFetcher  from './fetchers/searches';
 import inboxFetcher     from './fetchers/inbox';
 
-import meView        from './views/me';
-import friendsView   from './views/friends';
-import playlistsView from './views/playlists';
-import searchesView  from './views/searches';
-import inboxView     from './views/inbox';
-import musicsView    from './views/musics';
+import Me        from './components/me';
+import Friends   from './components/friends';
+import Playlists from './components/playlists';
+import Searches  from './components/searches';
+import Inbox     from './components/inbox';
+import Musics    from './components/musics';
 
 Fetcher.registerFetcher(friendsFetcher);
 Fetcher.registerFetcher(meFetcher);
@@ -72,22 +72,22 @@ app.get('/', function (req, res) {
     };
     let initialDataStr = JSON.stringify(initialData);
 
-    let meElm = React.createElement(meView, {data: me});
+    let meElm = React.createElement(Me, {data: me});
     let meStr = React.renderToString(meElm);
 
-    let friendsElm = React.createElement(friendsView, {data: friends});
+    let friendsElm = React.createElement(Friends, {data: friends});
     let friendsStr = React.renderToString(friendsElm);
 
-    let playlistsElm = React.createElement(playlistsView, {data: playlists});
+    let playlistsElm = React.createElement(Playlists, {data: playlists});
     let playlistsStr = React.renderToString(playlistsElm);
 
-    let searchesElm = React.createElement(searchesView, {data: searches});
+    let searchesElm = React.createElement(Searches, {data: searches});
     let searchesStr = React.renderToString(searchesElm);
 
-    let inboxElm = React.createElement(inboxView, {data: inbox});
+    let inboxElm = React.createElement(Inbox, {data: inbox});
     let inboxStr = React.renderToString(inboxElm);
 
-    let musicsElm = React.createElement(musicsView, {data: playlists[0].musics});
+    let musicsElm = React.createElement(Musics, {data: playlists[0].musics});
     let musicsStr = React.renderToString(musicsElm);
 
     let html = Handlebars.compile(fs.readFileSync('./src/tmpl/index.hbs').toString());

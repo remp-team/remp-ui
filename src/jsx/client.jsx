@@ -5,12 +5,12 @@ import React from 'react';
 import 'jquery';
 import 'fitvids';
 
-import meView        from './views/me.jsx';
-import friendsView   from './views/friends.jsx';
-import playlistsView from './views/playlists.jsx';
-import searchesView  from './views/searches.jsx';
-import inboxView     from './views/inbox.jsx';
-import musicsView    from './views/musics.jsx';
+import Me        from './components/me.jsx';
+import Friends   from './components/friends.jsx';
+import Playlists from './components/playlists.jsx';
+import Searches  from './components/searches.jsx';
+import Inbox     from './components/inbox.jsx';
+import Musics    from './components/musics.jsx';
 
 var player;
 
@@ -19,24 +19,22 @@ $(function() {
   var data = $('#initial-data').data('json');
   console.log(data);
 
-  let meElm = React.createElement(meView, {data: data.me});
+  let meElm = React.createElement(Me, {data: data.me});
   React.render(meElm, document.getElementById('me-component'));
 
-  let friendsElm = React.createElement(friendsView, {data: data.friends});
+  let friendsElm = React.createElement(Friends, {data: data.friends});
   React.render(friendsElm, document.getElementById('friends-component'));
 
-  let playlistsElm = React.createElement(playlistsView, {data: data.playlists});
+  let playlistsElm = React.createElement(Playlists, {data: data.playlists});
   React.render(playlistsElm, document.getElementById('playlists-component'));
 
-  let searchesElm = React.createElement(searchesView, {data: data.searches});
+  let searchesElm = React.createElement(Searches, {data: data.searches});
   React.render(searchesElm, document.getElementById('searches-component'));
 
-  let inboxElm = React.createElement(inboxView, {data: data.inbox});
+  let inboxElm = React.createElement(Inbox, {data: data.inbox});
   React.render(inboxElm, document.getElementById('inbox-component'));
 
-  console.log(data.musics);
-
-  let musicsElm = React.createElement(musicsView, {data: data.musics});
+  let musicsElm = React.createElement(Musics, {data: data.musics});
   React.render(musicsElm, document.getElementById('musics-component'));
 
   window.onYouTubeIframeAPIReady = function() {
