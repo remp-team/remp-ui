@@ -12,12 +12,7 @@ import playlistsFetcher from './fetchers/playlists';
 import searchesFetcher  from './fetchers/searches';
 import inboxFetcher     from './fetchers/inbox';
 
-import Me        from './components/me';
-import Friends   from './components/friends';
-import Playlists from './components/playlists';
-import Searches  from './components/searches';
-import Inbox     from './components/inbox';
-import Musics    from './components/musics';
+import App from './components/app';
 
 Fetcher.registerFetcher(friendsFetcher);
 Fetcher.registerFetcher(meFetcher);
@@ -72,35 +67,15 @@ app.get('/', function (req, res) {
     };
     let initialDataStr = JSON.stringify(initialData);
 
-    let meElm = React.createElement(Me, {data: me});
-    let meStr = React.renderToString(meElm);
-
-    let friendsElm = React.createElement(Friends, {data: friends});
-    let friendsStr = React.renderToString(friendsElm);
-
-    let playlistsElm = React.createElement(Playlists, {data: playlists});
-    let playlistsStr = React.renderToString(playlistsElm);
-
-    let searchesElm = React.createElement(Searches, {data: searches});
-    let searchesStr = React.renderToString(searchesElm);
-
-    let inboxElm = React.createElement(Inbox, {data: inbox});
-    let inboxStr = React.renderToString(inboxElm);
-
-    let musicsElm = React.createElement(Musics, {data: playlists[0].musics});
-    let musicsStr = React.renderToString(musicsElm);
-
     let html = Handlebars.compile(fs.readFileSync('./src/tmpl/index.hbs').toString());
+
+    let appElm = React.createElement(App, initialData);
+    let appStr = React.renderToString(appElm);
 
     res.set('Content-Type', 'text/html');
     res.send(html({
       initialData: initialDataStr,
-      me: meStr,
-      friends: friendsStr,
-      playlists: playlistsStr,
-      searches: searchesStr,
-      inbox: inboxStr,
-      musics: musicsStr
+      app: appStr
     }));
 
   }).catch(function(error){
