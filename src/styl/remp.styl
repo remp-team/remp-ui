@@ -26,51 +26,52 @@ h1, h2, h3, h4, h5, h6
   margin 0
   padding 0
 
-
 //
 // Theme
 //
-#app-component
-
+#app
   height: 100%
 
-  a:link,
-  a:visited
-    color remp-black
-    text-decoration none
-  a:hover
-    color remp-red
-  ul
-    padding-left 0
-    li
-      list-style-type none
+  #app-component
+    height: 100%
 
-  &.black
-    background-color remp-black
-    color remp-white
     a:link,
     a:visited
-      color remp-white
+      color remp-black
+      text-decoration none
     a:hover
       color remp-red
+    ul
+      padding-left 0
+      li
+        list-style-type none
 
-  &.gray
-    background-color remp-gray
-    color remp-white
-    a:link,
-    a:visited
+    &.black
+      background-color remp-black
       color remp-white
-    a:hover
-      color remp-red
+      a:link,
+      a:visited
+        color remp-white
+      a:hover
+        color remp-red
 
-  &.green
-    background-color remp-green
-    color remp-white
-    a:link,
-    a:visited
+    &.gray
+      background-color remp-gray
       color remp-white
-    a:hover
-      color remp-red
+      a:link,
+      a:visited
+        color remp-white
+      a:hover
+        color remp-red
+
+    &.green
+      background-color remp-green
+      color remp-white
+      a:link,
+      a:visited
+        color remp-white
+      a:hover
+        color remp-red
 
 //
 // Layout
@@ -88,7 +89,7 @@ header
   .menu
     align-self center
 
-.app
+.main
   padding 0 4em 2em 4em
   position absolute
   top 160px

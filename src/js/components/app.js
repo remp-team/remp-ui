@@ -17,7 +17,7 @@ var App = React.createClass({
           <h1 className="logo"><img src="/img/logo.png" alt="REMP logo" /></h1>
           <Menu />
         </header>
-        <section className="app">
+        <section className="main">
           <section className="item list">
             <h2>Friends</h2>
             <div id="me-component">
