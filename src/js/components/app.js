@@ -12,7 +12,7 @@ var App = React.createClass({
 
   render: function() {
     return (
-      <section>
+      <section id="app-component" className="green">
         <header>
           <h1 className="logo"><img src="/img/logo.png" alt="REMP logo" /></h1>
           <Menu />

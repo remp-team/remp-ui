@@ -26,55 +26,51 @@ h1, h2, h3, h4, h5, h6
   margin 0
   padding 0
 
-//
-// Theme: white
-//
-a:link,
-a:visited
-  color remp-black
-  text-decoration none
-a:hover
-  color remp-red
-ul
-  padding-left 0
-  li
-    list-style-type none
 
 //
-// Theme: black
+// Theme
 //
-body.black
-  background-color remp-black
-  color remp-white
-  a:link,
-  a:visited
-    color remp-white
-  a:hover
-    color remp-red
+#app-component
 
-//
-// Theme: gray
-//
-body.gray
-  background-color remp-gray
-  color remp-white
-  a:link,
-  a:visited
-    color remp-white
-  a:hover
-    color remp-red
+  height: 100%
 
-//
-// Theme: green
-//
-body.green
-  background-color remp-green
-  color remp-white
   a:link,
   a:visited
-    color remp-white
+    color remp-black
+    text-decoration none
   a:hover
     color remp-red
+  ul
+    padding-left 0
+    li
+      list-style-type none
+
+  &.black
+    background-color remp-black
+    color remp-white
+    a:link,
+    a:visited
+      color remp-white
+    a:hover
+      color remp-red
+
+  &.gray
+    background-color remp-gray
+    color remp-white
+    a:link,
+    a:visited
+      color remp-white
+    a:hover
+      color remp-red
+
+  &.green
+    background-color remp-green
+    color remp-white
+    a:link,
+    a:visited
+      color remp-white
+    a:hover
+      color remp-red
 
 //
 // Layout
