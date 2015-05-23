@@ -6,6 +6,7 @@ import Inbox     from '../components/inbox';
 import Musics    from '../components/musics';
 import Playlists from '../components/playlists';
 import Searches  from '../components/searches';
+import Menu      from '../components/menu';
 
 var App = React.createClass({
 
@@ -14,9 +15,7 @@ var App = React.createClass({
       <section>
         <header>
           <h1 className="logo"><img src="/img/logo.png" alt="REMP logo" /></h1>
-          <nav className="menu">
-            <a href="#"><i className="btl bt-bars bt-2x"></i></a>
-          </nav>
+          <Menu />
         </header>
         <section className="app">
           <section className="item list">
