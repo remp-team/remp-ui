@@ -7,6 +7,7 @@ import Musics    from '../components/musics';
 import Playlists from '../components/playlists';
 import Searches  from '../components/searches';
 import Menu      from '../components/menu';
+import Controls  from '../components/controls';
 
 var App = React.createClass({
 
@@ -61,15 +62,7 @@ var App = React.createClass({
             <div id="video-frame">
               <div id="video"></div>
             </div>
-            <ul>
-              <li><a href="#"><i className="btl bt-fast-reverse"></i></a></li>
-              <li><a href="#"><i className="btl bt-play"></i></a></li>
-              <li><a href="#"><i className="btl bt-fast-forward"></i></a></li>
-              <li><a href="#"><i className="btl bt-repeat"></i></a></li>
-              <li><a href="#"><i className="btl bt-volume-up"></i></a></li>
-              <li><a href="#"><i className="btl bt-reply"></i></a></li>
-              <li><a href="#"><i className="btl bt-share"></i></a></li>
-            </ul>
+            <Controls />
           </section>
         </section>
       </section>
