@@ -7,13 +7,11 @@ let fetcher = new Fetcher({
 
 let Playlist = React.createClass({
   handleClick: function() {
-    console.log(this.props.id);
-    fetcher.read('playlists', { id: this.props.id }, {}, function (err, data, meta) {
+    fetcher.read('playlists', { id: this.props.id }, {}, function (err, data) {
       if (err) {
         console.log(err);
       }
       console.log(data.musics);
-      console.log(meta);
     });
     console.log('playlist click');
     return;
@@ -40,7 +38,7 @@ let Playlists = React.createClass({
     console.log('render');
     var list = this.props.data.map(function(obj){
       return (
-        <Playlist name={obj.name} key={obj.id} />
+        <Playlist name={obj.name} id={obj.id} key={obj.id} />
       );
     });
     return (

@@ -17,6 +17,7 @@ $(function() {
   let appElm = React.createElement(App, data);
   React.render(appElm, document.getElementById('app'));
 
+  $('#video-frame').hide();
   window.onYouTubeIframeAPIReady = function() {
     console.log('on youtube iframe api ready');
     window.player = new YT.Player('video', {
