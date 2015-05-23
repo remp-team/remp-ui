@@ -12,6 +12,7 @@ Web UI for [remp.jp](http://remp.jp).
 
 ```
 $ npm istall
+$ npm run build
 $ npm start
 ```
 
