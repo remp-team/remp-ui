@@ -5,7 +5,7 @@ import 'fitvids';
 
 import React from 'react';
 
-import App from './components/app.js';
+import App from './components/app';
 
 var player;
 

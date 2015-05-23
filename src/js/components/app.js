@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Me        from '../components/me.js';
-import Friends   from '../components/friends.js';
-import Inbox     from '../components/inbox.js';
-import Musics    from '../components/musics.js';
-import Playlists from '../components/playlists.js';
-import Searches  from '../components/searches.js';
+import Me        from '../components/me';
+import Friends   from '../components/friends';
+import Inbox     from '../components/inbox';
+import Musics    from '../components/musics';
+import Playlists from '../components/playlists';
+import Searches  from '../components/searches';
 
 var App = React.createClass({
 
