@@ -2,7 +2,7 @@
   "name": "remp-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/server.jsx",
+  "main": "lib/server.js",
   "dependencies": {
     "body-parser": "^1.12.3",
     "config": "^1.13.0",
@@ -38,12 +38,12 @@
     "jquery": "$"
   },
   "scripts": {
-    "build": "babel src/jsx -d lib && npm run build-client",
-    "build-client": "mkdir -p public/build && browserify -t babelify src/jsx/client.jsx -o public/build/client.bundle.js && npm run build-stylus",
+    "build": "babel src/js -d lib && npm run build-client",
+    "build-client": "mkdir -p public/build && browserify -t babelify src/js/client.js -o public/build/client.bundle.js && npm run build-stylus",
     "build-stylus": "stylus -u ./node_modules/nib/lib/nib --sourcemap-inline --compress -o public/build/ src/styl/*.styl",
     "watch": "npm run watch-server & npm run watch-client & npm run watch-stylus",
-    "watch-server": "babel -w src/jsx -d lib",
-    "watch-client": "mkdir -p public/build && watchify -t babelify src/jsx/client.jsx -o public/build/client.bundle.js",
+    "watch-server": "babel -w src/js -d lib",
+    "watch-client": "mkdir -p public/build && watchify -t babelify src/js/client.js -o public/build/client.bundle.js",
     "watch-stylus": "stylus -u ./node_modules/nib/lib/nib -w --sourcemap-inline --compress -o public/build/ src/styl/*.styl",
     "start": "nf start -p 8090"
   },
