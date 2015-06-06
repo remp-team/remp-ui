@@ -1,10 +1,10 @@
 {
-  "me": {
-    "id": 100,
-    "name": "hikarock",
-    "count": 732
-  },
-  "friends": [
+  "rempusers": [
+    {
+      "id": 100,
+      "name": "hikarock",
+      "count": 732
+    },
     {
       "id": 101,
       "name": "hideack",
@@ -14,240 +14,119 @@
       "id": 102,
       "name": "nakajijapan",
       "count": 82
-    },
-    {
-      "id": 103,
-      "name": "yosaburo",
-      "count": 63
-    },
-    {
-      "id": 104,
-      "name": "getsukikyu",
-      "count": 42
-    },
-    {
-      "id": 105,
-      "name": "misyobun",
-      "count": 35
-    }
-  ],
-  "searches": [
-    {
-      "id": 131,
-      "name": "Foo Fighters",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
-    },
-    {
-      "id": 135,
-      "name": "Grandaddy",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
-    },
-    {
-      "id": 138,
-      "name": "Smashing Pumpkins",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
-    },
-    {
-      "id": 142,
-      "name": "Muse",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
-    },
-    {
-      "id": 149,
-      "name": "Weezer",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
-    },
-    {
-      "id": 150,
-      "name": "Seal",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
     }
   ],
   "playlists": [
     {
-      "id": 129,
-      "name": "R.E.M.",
-      "musics": [
-        {
-          "id": 201,
-          "name": "Daysleeper",
-          "videoId": "uUcKeKt8C1k"
-        },
-        {
-          "id": 202,
-          "name": "Man On The Moon",
-          "videoId": "1hKSYgOGtos"
-        },
-        {
-          "id": 203,
-          "name": "Electrolite",
-          "videoId": "1LewYq40Svw"
-        },
-        {
-          "id": 204,
-          "name": "Nightswimming",
-          "videoId": "NGbZFBcO9Dk"
-        }
-      ]
+      "rempuserId": 100,
+      "id": 131,
+      "published": true,
+      "title": "Foo Fighters"
     },
     {
-      "id": 130,
-      "name": "Toad The Wet Sprocket",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
+      "rempuserId": 100,
+      "id": 132,
+      "published": true,
+      "title": "Toad The Wet Sprocket"
     },
     {
+      "rempuserId": 100,
       "id": 133,
-      "name": "Eels",
-      "musics": [
-        {
-          "id": 301,
-          "name": "Walk on the Ocean",
-          "videoId": "aaa"
-        },
-        {
-          "id": 302,
-          "name": "Golden Age",
-          "videoId": "aaa"
-        },
-        {
-          "id": 303,
-          "name": "Come Down",
-          "videoId": "aaa"
-        }
-      ]
+      "published": true,
+      "title": "Weezer"
+    },
+    {
+      "rempuserId": 101,
+      "id": 134,
+      "published": true,
+      "title": "Seal"
+    },
+    {
+      "rempuserId": 102,
+      "id": 135,
+      "published": true,
+      "title": "Smashing Pumpkins"
+    },
+    {
+      "rempuserId": 102,
+      "id": 136,
+      "published": true,
+      "title": "Muse"
     }
   ],
-  "inbox": {
-    "id": 130,
-    "name": "Inbox",
-    "musics": [
-      {
-        "id": 301,
-        "name": "Walk on the Ocean",
-        "videoId": "aaa"
-      },
-      {
-        "id": 302,
-        "name": "Golden Age",
-        "videoId": "aaa"
-      },
-      {
-        "id": 303,
-        "name": "Come Down",
-        "videoId": "aaa"
-      }
-    ]
-  }
+  "searches": [
+    {
+      "rempuserId": 100,
+      "id": 131,
+      "keyword": "Foo Fighters"
+    },
+    {
+      "rempuserId": 100,
+      "id": 132,
+      "keyword": "Toad The Wet Sprocket"
+    },
+    {
+      "rempuserId": 100,
+      "id": 133,
+      "keyword": "Weezer"
+    },
+    {
+      "rempuserId": 101,
+      "id": 134,
+      "keyword": "Seal"
+    },
+    {
+      "rempuserId": 102,
+      "id": 135,
+      "keyword": "Smashing Pumpkins"
+    },
+    {
+      "rempuserId": 102,
+      "id": 136,
+      "keyword": "Muse"
+    }
+  ],
+  "inbox": [
+    {
+      "rempuserId": 100,
+      "id": 131,
+      "name": "Foo Fighters"
+    },
+    {
+      "rempuserId": 101,
+      "id": 132,
+      "name": "Toad The Wet Sprocket"
+    },
+    {
+      "rempuserId": 102,
+      "id": 133,
+      "name": "Weezer"
+    }
+  ],
+  "musics": [
+    {
+      "playlistId": 131,
+      "id": 1,
+      "name": "The Pretender",
+      "videoId": "aaa"
+    },
+    {
+      "playlistId": 131,
+      "id": 2,
+      "name": "Everlong",
+      "videoId": "aaa"
+    },
+    {
+      "playlistId": 131,
+      "id": 3,
+      "name": "All My Life",
+      "videoId": "aaa"
+    },
+    {
+      "playlistId": 131,
+      "id": 4,
+      "name": "Learn To Fly",
+      "videoId": "aaa"
+    }
+  ]
 }
