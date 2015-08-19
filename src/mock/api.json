@@ -1,0 +1,376 @@
+{
+  "users": [
+    {
+      "id": 100,
+      "name": "hikarock",
+      "count": 732
+    },
+    {
+      "id": 101,
+      "name": "hideack",
+      "count": 123
+    },
+    {
+      "id": 102,
+      "name": "nakajijapan",
+      "count": 82
+    }
+  ],
+  "playlists": [
+    {
+      "userId": 100,
+      "id": 131,
+      "name": "Foo Fighters",
+      "musics": [
+        {
+          "id": 301,
+          "name": "The Pretender",
+          "providerId": 1,
+          "videoId": "SBjQ9tuuTJQ"
+        },
+        {
+          "id": 302,
+          "name": "Everlong",
+          "providerId": 1,
+          "videoId": "eBG7P-K-r1Y"
+        },
+        {
+          "id": 303,
+          "name": "All My Life",
+          "providerId": 1,
+          "videoId": "xQ04WbgI9rg"
+        },
+        {
+          "id": 401,
+          "name": "These Days",
+          "providerId": 2,
+          "videoId": "24271673"
+        },
+        {
+          "id": 304,
+          "name": "Something From Nothing",
+          "providerId": 1,
+          "videoId": "V_YlZ1JdcVk"
+        },
+        {
+          "id": 305,
+          "name": "Next Year",
+          "providerId": 1,
+          "videoId": "j1qQuSuQaHY"
+        }
+      ]
+    },
+    {
+      "userId": 100,
+      "id": 132,
+      "name": "Toad The Wet Sprocket",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "providerId": 1,
+          "videoId": "12bM1CqHoBY"
+        },
+        {
+          "id": 302,
+          "name": "Come Down",
+          "providerId": 1,
+          "videoId": "d2FwTprUij4"
+        },
+        {
+          "id": 303,
+          "name": "Torn",
+          "providerId": 1,
+          "videoId": "OhtkKAvZPSk"
+        }
+      ]
+    },
+    {
+      "userId": 100,
+      "id": 133,
+      "name": "Weezer",
+      "musics": [
+        {
+          "id": 301,
+          "name": "My Name Is Jonas",
+          "providerId": 1,
+          "videoId": "AbwI2-nJ0Tw"
+        },
+        {
+          "id": 302,
+          "name": "Hash Pipe",
+          "providerId": 1,
+          "videoId": "_9BGLtqqkVI"
+        },
+        {
+          "id": 303,
+          "name": "The Greatest Man That Ever Lived",
+          "providerId": 1,
+          "videoId": "bDFjhmPlayg"
+        }
+      ]
+    },
+    {
+      "userId": 101,
+      "id": 134,
+      "name": "R.E.M.",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Electrolite",
+          "providerId": 1,
+          "videoId": "1LewYq40Svw"
+        },
+        {
+          "id": 302,
+          "name": "Daysleeper",
+          "providerId": 1,
+          "videoId": "uUcKeKt8C1k"
+        },
+        {
+          "id": 303,
+          "name": "Supernatural Superserious",
+          "providerId": 1,
+          "videoId": "_We6ubpUHZs"
+        }
+      ]
+    },
+    {
+      "userId": 102,
+      "id": 135,
+      "name": "Smashing Pumpkins",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Today",
+          "providerId": 1,
+          "videoId": "xmUZ6nCFNoU"
+        },
+        {
+          "id": 302,
+          "name": "1979",
+          "providerId": 1,
+          "videoId": "4aeETEoNfOg"
+        }
+      ]
+    },
+    {
+      "userId": 102,
+      "id": 136,
+      "name": "Muse",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Knights Of Cydonia",
+          "providerId": 1,
+          "videoId": "G_sBOsh-vyI"
+        },
+        {
+          "id": 302,
+          "name": "Sunburn",
+          "providerId": 1,
+          "videoId": "N9SZaOJEWXU"
+        }
+      ]
+    }
+  ],
+  "searches": [
+    {
+      "userId": 100,
+      "id": 131,
+      "name": "Foo Fighters",
+      "musics": [
+        {
+          "id": 301,
+          "name": "The Pretender",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Everlong",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "All My Life",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 304,
+          "name": "Learn To Fly",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "userId": 100,
+      "id": 132,
+      "name": "Toad The Wet Sprocket",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "userId": 100,
+      "id": 133,
+      "name": "Weezer",
+      "musics": [
+        {
+          "id": 301,
+          "name": "What Happened...",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Now It's On",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "userId": 101,
+      "id": 134,
+      "name": "Seal",
+      "musics": [
+        {
+          "id": 301,
+          "name": "What Happened...",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Now It's On",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "userId": 102,
+      "id": 135,
+      "name": "Smashing Pumpkins",
+      "musics": [
+        {
+          "id": 301,
+          "name": "What Happened...",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Now It's On",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "userId": 102,
+      "id": 136,
+      "name": "Muse",
+      "musics": [
+        {
+          "id": 301,
+          "name": "What Happened...",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Now It's On",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    }
+  ],
+  "inbox": [
+    {
+      "userId": 100,
+      "id": 131,
+      "name": "Foo Fighters",
+      "musics": [
+        {
+          "id": 301,
+          "name": "The Pretender",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Everlong",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 303,
+          "name": "All My Life",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 304,
+          "name": "Learn To Fly",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "userId": 101,
+      "id": 132,
+      "name": "Toad The Wet Sprocket",
+      "musics": [
+        {
+          "id": 301,
+          "name": "Walk on the Ocean",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Golden Age",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    },
+    {
+      "userId": 102,
+      "id": 133,
+      "name": "Weezer",
+      "musics": [
+        {
+          "id": 301,
+          "name": "What Happened...",
+          "providerId": 1,
+          "videoId": "aaa"
+        },
+        {
+          "id": 302,
+          "name": "Now It's On",
+          "providerId": 1,
+          "videoId": "aaa"
+        }
+      ]
+    }
+  ]
+}
