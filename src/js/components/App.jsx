@@ -2,13 +2,9 @@
 
 import React     from 'react';
 import Friends   from './Friends.jsx';
-import Friend    from './Friend.jsx';
 import Playlists from './Playlists.jsx';
-import Playlist  from './Playlist.jsx';
 import Searches  from './Searches.jsx';
-import Search    from './Search.jsx';
 import Musics    from './Musics.jsx';
-import Music     from './Music.jsx';
 import Menu      from './Menu.jsx';
 import Controls  from './Controls.jsx';
 
