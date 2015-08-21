@@ -10,7 +10,7 @@ let Playlist = React.createClass({
     currentID: ReactPropTypes.string
   },
   render: function() {
-    var playlist = this.props.playlist;
+    let playlist = this.props.playlist;
     return (
       <li><i className="btl bt-fw bt-folder"></i>{playlist.name}</li>
     );

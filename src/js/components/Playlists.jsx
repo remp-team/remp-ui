@@ -11,11 +11,10 @@ let Playlists = React.createClass({
   render: function() {
     let playlists = [];
     let userId = this.props.userId;
-    let currentId = this.props.currentId;
     if (this.props.playlists.length > 0) {
       playlists = this.props.playlists.map(function(playlist) {
         return (
-          <NavLink href={"/" + userId + "/" + playlist.id} key={playlist.id}>
+          <NavLink href={'/' + userId + '/' + playlist.id} key={playlist.id}>
             <Playlist
               key={playlist.id}
               playlist={playlist}

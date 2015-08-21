@@ -10,7 +10,7 @@ let Search = React.createClass({
     currentID: ReactPropTypes.string
   },
   render: function() {
-    var search = this.props.search;
+    let search = this.props.search;
     return (
       <li><i className="btl bt-fw bt-search"></i>{search.name}</li>
     );

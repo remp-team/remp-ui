@@ -11,11 +11,10 @@ let Searches = React.createClass({
   render: function() {
     let searches = [];
     let userId = this.props.userId;
-    let currentId = this.props.currentId;
     if (this.props.searches.length > 0) {
       searches = this.props.searches.map(function(search) {
         return (
-          <NavLink href={"/" + userId + "/" + search.id} key={search.id}>
+          <NavLink href={'/' + userId + '/' + search.id} key={search.id}>
             <Search
               key={search.id}
               search={search}

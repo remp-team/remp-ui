@@ -1,7 +1,6 @@
 'use strict';
 
 import React           from 'react';
-import PlaylistsStore  from '../stores/PlaylistsStore';
 import Friend          from '../components/Friend.jsx';
 import FriendsStore    from '../stores/FriendsStore';
 import connectToStores from 'fluxible/addons/connectToStores';
@@ -12,7 +11,7 @@ let Friends = React.createClass({
   render: function() {
     let friends = this.props.friends.map(function(friend) {
       return (
-        <NavLink href={"/" + friend.id} key={friend.id}>
+        <NavLink href={'/' + friend.id} key={friend.id}>
           <Friend
             key={friend.id}
             friend={friend}
