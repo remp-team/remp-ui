@@ -36,10 +36,10 @@ window.onYouTubeIframeAPIReady = function() {
     width: '640',
     videoId: 'V_YlZ1JdcVk',
     events: {
-      'onReady': function(event) {
+      'onReady': function() {
         //
       },
-      'onStateChange': function(event) {
+      'onStateChange': function() {
         //
       }
     }

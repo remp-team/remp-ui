@@ -25,7 +25,7 @@ let MusicsStore = createStore({
   get: function(id) {
     let musics = [];
     this.playlists.forEach(function(playlist) {
-      if (id == playlist.id) {
+      if (id === playlist.id) {
         musics = playlist.musics;
       }
     });

@@ -7,10 +7,10 @@ let createStore = require('fluxible/addons').createStore;
 let VideoStore = createStore({
   storeName: 'VideoStore',
   handlers: {
-    'QUE_VIDEO': 'queVideo',
-    'PLAY_VIDEO': 'playVideo',
+    'QUE_VIDEO':   'queVideo',
+    'PLAY_VIDEO':  'playVideo',
     'PAUSE_VIDEO': 'pauseVideo',
-    'STOP_VIDEO': 'stopVideo'
+    'STOP_VIDEO':  'stopVideo'
   },
   initialize: function () {
     this.currentId = null;

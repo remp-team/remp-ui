@@ -1,7 +1,5 @@
 'use strict';
 
-let debug = require('debug')('queVideoAction');
-
 module.exports = function (context, payload, done) {
 
   let videoId = payload.videoId;

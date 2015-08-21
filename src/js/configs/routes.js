@@ -1,7 +1,6 @@
-var showFriends   = require('../actions/showFriends');
-var showPlaylists = require('../actions/showPlaylists');
-var queVideo      = require('../actions/queVideo');
-
+let showFriends   = require('../actions/showFriends');
+let showPlaylists = require('../actions/showPlaylists');
+let queVideo      = require('../actions/queVideo');
 
 module.exports = {
   home: {

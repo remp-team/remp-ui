@@ -1,7 +1,5 @@
 'use strict';
 
-let debug = require('debug')('showPlaylistsAction');
-
 module.exports = function (context, payload, done) {
 
   let userId     = payload.userId;
