@@ -24,7 +24,7 @@
     "quotes": [2, "single"],
     "no-unused-vars": 1,
     "key-spacing": 0,
-    "max-len": [1, 100, 2],
+    "max-len": [1, 120, 2],
     "max-params": [1, 4],
     "max-statements": [1, 12],
     "react/jsx-uses-vars": 1
