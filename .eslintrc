@@ -26,6 +26,10 @@
     "key-spacing": 0,
     "max-len": [1, 100, 2],
     "max-params": [1, 4],
-    "max-statements": [1, 12]
-  }
+    "max-statements": [1, 12],
+    "react/jsx-uses-vars": 1
+  },
+  "plugins": [
+    "react"
+  ]
 }
