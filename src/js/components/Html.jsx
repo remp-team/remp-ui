@@ -10,7 +10,7 @@ let Html = React.createClass({
           <meta charSet="utf-8" />
           <title>{this.props.title}</title>
           <meta name="viewport" content="width=device-width, user-scalable=no" />
-          <link rel="stylesheet" href="/public/vendor/css/black-tie.min.css" />
+          <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/459142/black-tie/css/black-tie.min.css" />
           <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:200" />
           <link rel="stylesheet" href="/public/build/css/app.css" />
         </head>

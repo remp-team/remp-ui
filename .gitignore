@@ -37,8 +37,3 @@ node_modules
 
 public/build/
 
-# font-awesome black-tie
-public/vendor/css/black-tie.min.css
-public/vendor/fonts/brands
-public/vendor/fonts/light
-
