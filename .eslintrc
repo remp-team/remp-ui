@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "arrowFunctions": true,
+    "classes": true,
+    "defaultParams": true,
+    "blockBindings": true,
+    "forOf": true,
+    "templateStrings": true,
+    "jsx": true
+  },
+  "rules": {
+    "strict": 0,
+    "no-var": 1,
+    "no-console": 0,
+    "no-alert": 1,
+    "no-multi-spaces": 0,
+    "indent": [2, 2],
+    "quotes": [2, "single"],
+    "no-unused-vars": 1,
+    "key-spacing": 0,
+    "max-len": [1, 100, 2],
+    "max-params": [1, 4],
+    "max-statements": [1, 12]
+  }
+}
