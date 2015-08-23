@@ -2,18 +2,21 @@
   "users": [
     {
       "id": 100,
-      "name": "hikarock",
-      "count": 732
+      "username": "hikarock",
+      "email": "hikarock@remp.jp",
+      "createdAt": "2015-08-23T06:12:29.585Z"
     },
     {
       "id": 101,
-      "name": "hideack",
-      "count": 123
+      "username": "hideack",
+      "email": "hideack@remp.jp",
+      "createdAt": "2015-08-23T06:12:29.585Z"
     },
     {
       "id": 102,
-      "name": "nakajijapan",
-      "count": 82
+      "username": "nakajijapan",
+      "email": "nakajijapan@remp.jp",
+      "createdAt": "2015-08-23T06:12:29.585Z"
     }
   ],
   "playlists": [
