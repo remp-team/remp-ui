@@ -23,41 +23,41 @@
     {
       "userId": 100,
       "id": 131,
-      "name": "Foo Fighters",
+      "title": "Foo Fighters",
       "musics": [
         {
           "id": 301,
-          "name": "The Pretender",
+          "title": "The Pretender",
           "providerId": 1,
           "videoId": "SBjQ9tuuTJQ"
         },
         {
           "id": 302,
-          "name": "Everlong",
+          "title": "Everlong",
           "providerId": 1,
           "videoId": "eBG7P-K-r1Y"
         },
         {
           "id": 303,
-          "name": "All My Life",
+          "title": "All My Life",
           "providerId": 1,
           "videoId": "xQ04WbgI9rg"
         },
         {
           "id": 401,
-          "name": "These Days",
+          "title": "These Days",
           "providerId": 2,
           "videoId": "24271673"
         },
         {
           "id": 304,
-          "name": "Something From Nothing",
+          "title": "Something From Nothing",
           "providerId": 1,
           "videoId": "V_YlZ1JdcVk"
         },
         {
           "id": 305,
-          "name": "Next Year",
+          "title": "Next Year",
           "providerId": 1,
           "videoId": "j1qQuSuQaHY"
         }
@@ -66,23 +66,23 @@
     {
       "userId": 100,
       "id": 132,
-      "name": "Toad The Wet Sprocket",
+      "title": "Toad The Wet Sprocket",
       "musics": [
         {
           "id": 301,
-          "name": "Walk on the Ocean",
+          "title": "Walk on the Ocean",
           "providerId": 1,
           "videoId": "12bM1CqHoBY"
         },
         {
           "id": 302,
-          "name": "Come Down",
+          "title": "Come Down",
           "providerId": 1,
           "videoId": "d2FwTprUij4"
         },
         {
           "id": 303,
-          "name": "Torn",
+          "title": "Torn",
           "providerId": 1,
           "videoId": "OhtkKAvZPSk"
         }
@@ -91,23 +91,23 @@
     {
       "userId": 100,
       "id": 133,
-      "name": "Weezer",
+      "title": "Weezer",
       "musics": [
         {
           "id": 301,
-          "name": "My Name Is Jonas",
+          "title": "My Name Is Jonas",
           "providerId": 1,
           "videoId": "AbwI2-nJ0Tw"
         },
         {
           "id": 302,
-          "name": "Hash Pipe",
+          "title": "Hash Pipe",
           "providerId": 1,
           "videoId": "_9BGLtqqkVI"
         },
         {
           "id": 303,
-          "name": "The Greatest Man That Ever Lived",
+          "title": "The Greatest Man That Ever Lived",
           "providerId": 1,
           "videoId": "bDFjhmPlayg"
         }
@@ -116,23 +116,23 @@
     {
       "userId": 101,
       "id": 134,
-      "name": "R.E.M.",
+      "title": "R.E.M.",
       "musics": [
         {
           "id": 301,
-          "name": "Electrolite",
+          "title": "Electrolite",
           "providerId": 1,
           "videoId": "1LewYq40Svw"
         },
         {
           "id": 302,
-          "name": "Daysleeper",
+          "title": "Daysleeper",
           "providerId": 1,
           "videoId": "uUcKeKt8C1k"
         },
         {
           "id": 303,
-          "name": "Supernatural Superserious",
+          "title": "Supernatural Superserious",
           "providerId": 1,
           "videoId": "_We6ubpUHZs"
         }
@@ -141,17 +141,17 @@
     {
       "userId": 102,
       "id": 135,
-      "name": "Smashing Pumpkins",
+      "title": "Smashing Pumpkins",
       "musics": [
         {
           "id": 301,
-          "name": "Today",
+          "title": "Today",
           "providerId": 1,
           "videoId": "xmUZ6nCFNoU"
         },
         {
           "id": 302,
-          "name": "1979",
+          "title": "1979",
           "providerId": 1,
           "videoId": "4aeETEoNfOg"
         }
@@ -160,17 +160,17 @@
     {
       "userId": 102,
       "id": 136,
-      "name": "Muse",
+      "title": "Muse",
       "musics": [
         {
           "id": 301,
-          "name": "Knights Of Cydonia",
+          "title": "Knights Of Cydonia",
           "providerId": 1,
           "videoId": "G_sBOsh-vyI"
         },
         {
           "id": 302,
-          "name": "Sunburn",
+          "title": "Sunburn",
           "providerId": 1,
           "videoId": "N9SZaOJEWXU"
         }
@@ -181,29 +181,29 @@
     {
       "userId": 100,
       "id": 131,
-      "name": "Foo Fighters",
+      "title": "Foo Fighters",
       "musics": [
         {
           "id": 301,
-          "name": "The Pretender",
+          "title": "The Pretender",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Everlong",
+          "title": "Everlong",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 303,
-          "name": "All My Life",
+          "title": "All My Life",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 304,
-          "name": "Learn To Fly",
+          "title": "Learn To Fly",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -212,17 +212,17 @@
     {
       "userId": 100,
       "id": 132,
-      "name": "Toad The Wet Sprocket",
+      "title": "Toad The Wet Sprocket",
       "musics": [
         {
           "id": 301,
-          "name": "Walk on the Ocean",
+          "title": "Walk on the Ocean",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Golden Age",
+          "title": "Golden Age",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -231,17 +231,17 @@
     {
       "userId": 100,
       "id": 133,
-      "name": "Weezer",
+      "title": "Weezer",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
+          "title": "What Happened...",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
+          "title": "Now It's On",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -250,17 +250,17 @@
     {
       "userId": 101,
       "id": 134,
-      "name": "Seal",
+      "title": "Seal",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
+          "title": "What Happened...",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
+          "title": "Now It's On",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -269,17 +269,17 @@
     {
       "userId": 102,
       "id": 135,
-      "name": "Smashing Pumpkins",
+      "title": "Smashing Pumpkins",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
+          "title": "What Happened...",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
+          "title": "Now It's On",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -288,17 +288,17 @@
     {
       "userId": 102,
       "id": 136,
-      "name": "Muse",
+      "title": "Muse",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
+          "title": "What Happened...",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
+          "title": "Now It's On",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -309,29 +309,29 @@
     {
       "userId": 100,
       "id": 131,
-      "name": "Foo Fighters",
+      "title": "Foo Fighters",
       "musics": [
         {
           "id": 301,
-          "name": "The Pretender",
+          "title": "The Pretender",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Everlong",
+          "title": "Everlong",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 303,
-          "name": "All My Life",
+          "title": "All My Life",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 304,
-          "name": "Learn To Fly",
+          "title": "Learn To Fly",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -340,17 +340,17 @@
     {
       "userId": 101,
       "id": 132,
-      "name": "Toad The Wet Sprocket",
+      "title": "Toad The Wet Sprocket",
       "musics": [
         {
           "id": 301,
-          "name": "Walk on the Ocean",
+          "title": "Walk on the Ocean",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Golden Age",
+          "title": "Golden Age",
           "providerId": 1,
           "videoId": "aaa"
         }
@@ -359,17 +359,17 @@
     {
       "userId": 102,
       "id": 133,
-      "name": "Weezer",
+      "title": "Weezer",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
+          "title": "What Happened...",
           "providerId": 1,
           "videoId": "aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
+          "title": "Now It's On",
           "providerId": 1,
           "videoId": "aaa"
         }
