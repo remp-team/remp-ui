@@ -2,174 +2,196 @@
   "users": [
     {
       "id": 100,
-      "name": "hikarock",
-      "count": 732
+      "username": "hikarock",
+      "email": "hikarock@remp.jp",
+      "createdAt": "2015-08-23T06:12:29.585Z"
     },
     {
       "id": 101,
-      "name": "hideack",
-      "count": 123
+      "username": "hideack",
+      "email": "hideack@remp.jp",
+      "createdAt": "2015-08-23T06:12:29.585Z"
     },
     {
       "id": 102,
-      "name": "nakajijapan",
-      "count": 82
+      "username": "nakajijapan",
+      "email": "nakajijapan@remp.jp",
+      "createdAt": "2015-08-23T06:12:29.585Z"
     }
   ],
   "playlists": [
     {
       "userId": 100,
       "id": 131,
-      "name": "Foo Fighters",
+      "title": "Foo Fighters",
       "musics": [
         {
           "id": 301,
-          "name": "The Pretender",
-          "providerId": 1,
-          "videoId": "SBjQ9tuuTJQ"
+          "title": "The Pretender",
+          "type": "youtube",
+          "uniqueness": "SBjQ9tuuTJQ",
+          "url": "https://www.youtube.com/watch?v=SBjQ9tuuTJQ"
         },
         {
           "id": 302,
-          "name": "Everlong",
-          "providerId": 1,
-          "videoId": "eBG7P-K-r1Y"
+          "title": "Everlong",
+          "type": "youtube",
+          "uniqueness": "eBG7P-K-r1Y",
+          "url": "https://www.youtube.com/watch?v=eBG7P-K-r1Y"
         },
         {
           "id": 303,
-          "name": "All My Life",
-          "providerId": 1,
-          "videoId": "xQ04WbgI9rg"
+          "title": "All My Life",
+          "type": "youtube",
+          "uniqueness": "xQ04WbgI9rg",
+          "url": "https://www.youtube.com/watch?v=xQ04WbgI9rg"
         },
         {
           "id": 401,
-          "name": "These Days",
-          "providerId": 2,
-          "videoId": "24271673"
+          "title": "These Days",
+          "type": "youtube",
+          "uniqueness": "24271673",
+          "url": "https://www.youtube.com/watch?v=24271673"
         },
         {
           "id": 304,
-          "name": "Something From Nothing",
-          "providerId": 1,
-          "videoId": "V_YlZ1JdcVk"
+          "title": "Something From Nothing",
+          "type": "youtube",
+          "uniqueness": "V_YlZ1JdcVk",
+          "url": "https://www.youtube.com/watch?v=V_YlZ1JdcVk"
         },
         {
           "id": 305,
-          "name": "Next Year",
-          "providerId": 1,
-          "videoId": "j1qQuSuQaHY"
+          "title": "Next Year",
+          "type": "youtube",
+          "uniqueness": "j1qQuSuQaHY",
+          "url": "https://www.youtube.com/watch?v=j1qQuSuQaHY"
         }
       ]
     },
     {
       "userId": 100,
       "id": 132,
-      "name": "Toad The Wet Sprocket",
+      "title": "Toad The Wet Sprocket",
       "musics": [
         {
           "id": 301,
-          "name": "Walk on the Ocean",
-          "providerId": 1,
-          "videoId": "12bM1CqHoBY"
+          "title": "Walk on the Ocean",
+          "type": "youtube",
+          "uniqueness": "12bM1CqHoBY",
+          "url": "https://www.youtube.com/watch?v=12bM1CqHoBY"
         },
         {
           "id": 302,
-          "name": "Come Down",
-          "providerId": 1,
-          "videoId": "d2FwTprUij4"
+          "title": "Come Down",
+          "type": "youtube",
+          "uniqueness": "d2FwTprUij4",
+          "url": "https://www.youtube.com/watch?v=d2FwTprUij4"
         },
         {
           "id": 303,
-          "name": "Torn",
-          "providerId": 1,
-          "videoId": "OhtkKAvZPSk"
+          "title": "Torn",
+          "type": "youtube",
+          "uniqueness": "OhtkKAvZPSk",
+          "url": "https://www.youtube.com/watch?v=OhtkKAvZPSk"
         }
       ]
     },
     {
       "userId": 100,
       "id": 133,
-      "name": "Weezer",
+      "title": "Weezer",
       "musics": [
         {
           "id": 301,
-          "name": "My Name Is Jonas",
-          "providerId": 1,
-          "videoId": "AbwI2-nJ0Tw"
+          "title": "My Name Is Jonas",
+          "type": "youtube",
+          "uniqueness": "AbwI2-nJ0Tw",
+          "url": "https://www.youtube.com/watch?v=AbwI2-nJ0Tw"
         },
         {
           "id": 302,
-          "name": "Hash Pipe",
-          "providerId": 1,
-          "videoId": "_9BGLtqqkVI"
+          "title": "Hash Pipe",
+          "type": "youtube",
+          "uniqueness": "_9BGLtqqkVI",
+          "url": "https://www.youtube.com/watch?v=_9BGLtqqkVI"
         },
         {
           "id": 303,
-          "name": "The Greatest Man That Ever Lived",
-          "providerId": 1,
-          "videoId": "bDFjhmPlayg"
+          "title": "The Greatest Man That Ever Lived",
+          "type": "youtube",
+          "uniqueness": "bDFjhmPlayg",
+          "url": "https://www.youtube.com/watch?v=bDFjhmPlayg"
         }
       ]
     },
     {
       "userId": 101,
       "id": 134,
-      "name": "R.E.M.",
+      "title": "R.E.M.",
       "musics": [
         {
           "id": 301,
-          "name": "Electrolite",
-          "providerId": 1,
-          "videoId": "1LewYq40Svw"
+          "title": "Electrolite",
+          "type": "youtube",
+          "uniqueness": "1LewYq40Svw",
+          "url": "https://www.youtube.com/watch?v=1LewYq40Svw"
         },
         {
           "id": 302,
-          "name": "Daysleeper",
-          "providerId": 1,
-          "videoId": "uUcKeKt8C1k"
+          "title": "Daysleeper",
+          "type": "youtube",
+          "uniqueness": "uUcKeKt8C1k",
+          "url": "https://www.youtube.com/watch?v=uUcKeKt8C1k"
         },
         {
           "id": 303,
-          "name": "Supernatural Superserious",
-          "providerId": 1,
-          "videoId": "_We6ubpUHZs"
+          "title": "Supernatural Superserious",
+          "type": "youtube",
+          "uniqueness": "_We6ubpUHZs",
+          "url": "https://www.youtube.com/watch?v=_We6ubpUHZs"
         }
       ]
     },
     {
       "userId": 102,
       "id": 135,
-      "name": "Smashing Pumpkins",
+      "title": "Smashing Pumpkins",
       "musics": [
         {
           "id": 301,
-          "name": "Today",
-          "providerId": 1,
-          "videoId": "xmUZ6nCFNoU"
+          "title": "Today",
+          "type": "youtube",
+          "uniqueness": "xmUZ6nCFNoU",
+          "url": "https://www.youtube.com/watch?v=xmUZ6nCFNoU"
         },
         {
           "id": 302,
-          "name": "1979",
-          "providerId": 1,
-          "videoId": "4aeETEoNfOg"
+          "title": "1979",
+          "type": "youtube",
+          "uniqueness": "4aeETEoNfOg",
+          "url": "https://www.youtube.com/watch?v=4aeETEoNfOg"
         }
       ]
     },
     {
       "userId": 102,
       "id": 136,
-      "name": "Muse",
+      "title": "Muse",
       "musics": [
         {
           "id": 301,
-          "name": "Knights Of Cydonia",
-          "providerId": 1,
-          "videoId": "G_sBOsh-vyI"
+          "title": "Knights Of Cydonia",
+          "type": "youtube",
+          "uniqueness": "G_sBOsh-vyI",
+          "url": "https://www.youtube.com/watch?v=G_sBOsh-vyI"
         },
         {
           "id": 302,
-          "name": "Sunburn",
-          "providerId": 1,
-          "videoId": "N9SZaOJEWXU"
+          "title": "Sunburn",
+          "type": "youtube",
+          "uniqueness": "N9SZaOJEWXU",
+          "url": "https://www.youtube.com/watch?v=N9SZaOJEWXU"
         }
       ]
     }
@@ -178,126 +200,140 @@
     {
       "userId": 100,
       "id": 131,
-      "name": "Foo Fighters",
+      "title": "Foo Fighters",
       "musics": [
         {
           "id": 301,
-          "name": "The Pretender",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "The Pretender",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Everlong",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Everlong",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 303,
-          "name": "All My Life",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "All My Life",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 304,
-          "name": "Learn To Fly",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Learn To Fly",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     },
     {
       "userId": 100,
       "id": 132,
-      "name": "Toad The Wet Sprocket",
+      "title": "Toad The Wet Sprocket",
       "musics": [
         {
           "id": 301,
-          "name": "Walk on the Ocean",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Walk on the Ocean",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Golden Age",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Golden Age",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     },
     {
       "userId": 100,
       "id": 133,
-      "name": "Weezer",
+      "title": "Weezer",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "What Happened...",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Now It's On",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     },
     {
       "userId": 101,
       "id": 134,
-      "name": "Seal",
+      "title": "Seal",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "What Happened...",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Now It's On",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     },
     {
       "userId": 102,
       "id": 135,
-      "name": "Smashing Pumpkins",
+      "title": "Smashing Pumpkins",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "What Happened...",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Now It's On",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     },
     {
       "userId": 102,
       "id": 136,
-      "name": "Muse",
+      "title": "Muse",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "What Happened...",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Now It's On",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     }
@@ -306,69 +342,77 @@
     {
       "userId": 100,
       "id": 131,
-      "name": "Foo Fighters",
+      "title": "Foo Fighters",
       "musics": [
         {
           "id": 301,
-          "name": "The Pretender",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "The Pretender",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Everlong",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Everlong",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 303,
-          "name": "All My Life",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "All My Life",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 304,
-          "name": "Learn To Fly",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Learn To Fly",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     },
     {
       "userId": 101,
       "id": 132,
-      "name": "Toad The Wet Sprocket",
+      "title": "Toad The Wet Sprocket",
       "musics": [
         {
           "id": 301,
-          "name": "Walk on the Ocean",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Walk on the Ocean",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Golden Age",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Golden Age",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     },
     {
       "userId": 102,
       "id": 133,
-      "name": "Weezer",
+      "title": "Weezer",
       "musics": [
         {
           "id": 301,
-          "name": "What Happened...",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "What Happened...",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         },
         {
           "id": 302,
-          "name": "Now It's On",
-          "providerId": 1,
-          "videoId": "aaa"
+          "title": "Now It's On",
+          "type": "youtube",
+          "uniqueness": "aaa",
+          "url": "https://www.youtube.com/watch?v=aaa"
         }
       ]
     }
