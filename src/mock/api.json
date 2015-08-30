@@ -28,19 +28,19 @@
         {
           "id": 301,
           "title": "The Pretender",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "SBjQ9tuuTJQ"
         },
         {
           "id": 302,
           "title": "Everlong",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "eBG7P-K-r1Y"
         },
         {
           "id": 303,
           "title": "All My Life",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "xQ04WbgI9rg"
         },
         {
@@ -52,13 +52,13 @@
         {
           "id": 304,
           "title": "Something From Nothing",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "V_YlZ1JdcVk"
         },
         {
           "id": 305,
           "title": "Next Year",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "j1qQuSuQaHY"
         }
       ]
@@ -71,19 +71,19 @@
         {
           "id": 301,
           "title": "Walk on the Ocean",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "12bM1CqHoBY"
         },
         {
           "id": 302,
           "title": "Come Down",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "d2FwTprUij4"
         },
         {
           "id": 303,
           "title": "Torn",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "OhtkKAvZPSk"
         }
       ]
@@ -96,19 +96,19 @@
         {
           "id": 301,
           "title": "My Name Is Jonas",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "AbwI2-nJ0Tw"
         },
         {
           "id": 302,
           "title": "Hash Pipe",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "_9BGLtqqkVI"
         },
         {
           "id": 303,
           "title": "The Greatest Man That Ever Lived",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "bDFjhmPlayg"
         }
       ]
@@ -121,19 +121,19 @@
         {
           "id": 301,
           "title": "Electrolite",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "1LewYq40Svw"
         },
         {
           "id": 302,
           "title": "Daysleeper",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "uUcKeKt8C1k"
         },
         {
           "id": 303,
           "title": "Supernatural Superserious",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "_We6ubpUHZs"
         }
       ]
@@ -146,13 +146,13 @@
         {
           "id": 301,
           "title": "Today",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "xmUZ6nCFNoU"
         },
         {
           "id": 302,
           "title": "1979",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "4aeETEoNfOg"
         }
       ]
@@ -165,13 +165,13 @@
         {
           "id": 301,
           "title": "Knights Of Cydonia",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "G_sBOsh-vyI"
         },
         {
           "id": 302,
           "title": "Sunburn",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "N9SZaOJEWXU"
         }
       ]
@@ -186,25 +186,25 @@
         {
           "id": 301,
           "title": "The Pretender",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Everlong",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 303,
           "title": "All My Life",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 304,
           "title": "Learn To Fly",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -217,13 +217,13 @@
         {
           "id": 301,
           "title": "Walk on the Ocean",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Golden Age",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -236,13 +236,13 @@
         {
           "id": 301,
           "title": "What Happened...",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Now It's On",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -255,13 +255,13 @@
         {
           "id": 301,
           "title": "What Happened...",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Now It's On",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -274,13 +274,13 @@
         {
           "id": 301,
           "title": "What Happened...",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Now It's On",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -293,13 +293,13 @@
         {
           "id": 301,
           "title": "What Happened...",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Now It's On",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -314,25 +314,25 @@
         {
           "id": 301,
           "title": "The Pretender",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Everlong",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 303,
           "title": "All My Life",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 304,
           "title": "Learn To Fly",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -345,13 +345,13 @@
         {
           "id": 301,
           "title": "Walk on the Ocean",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Golden Age",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
@@ -364,13 +364,13 @@
         {
           "id": 301,
           "title": "What Happened...",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         },
         {
           "id": 302,
           "title": "Now It's On",
-          "providerId": 1,
+          "type": "youtube",
           "videoId": "aaa"
         }
       ]
